@@ -1,0 +1,14 @@
+catalytic-db:
+  image: mysql
+  environment:
+  - MYSQL_DATABASE=catalytic
+  - MYSQL_ROOT_PASSWORD=password
+  ports: ['3306:3306']
+
+db-example:
+  image: clay-gardner/catalytic
+  ports: ['8080:8080']
+  environment:
+  - spring.datasource.url=jdbc:mysql://catalytic-db/catalytic
+  - spring.jpa.hibernate.ddl-auto=create-drop
+  links: ['catalytic-db']
