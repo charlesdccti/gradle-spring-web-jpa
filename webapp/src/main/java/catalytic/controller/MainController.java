@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Created by gardncl on 2/16/17.
- */
-
 @RestController
 public class MainController {
 

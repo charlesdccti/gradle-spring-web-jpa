@@ -5,9 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-/**
- * Created by gardncl on 2/16/17.
- */
 
 @Entity
 public class Log {

@@ -11,13 +11,10 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
 
-/**
- * Created by gardncl on 2/16/17.
- */
 public class MathServiceImplTest {
 
     @Spy
-    MathServiceImpl mathService;
+    MathService mathService;
 
     @Before
     public void setup() {
