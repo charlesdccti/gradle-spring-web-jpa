@@ -2,6 +2,9 @@ webapp/.gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 .gradle
+webapp/gradlew
+webapp/gradlew.bat
+webapp/gradle
 
 ### STS ###
 .apt_generated
