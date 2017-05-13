@@ -1,7 +1,0 @@
-compile:
-  override:
-    - cd webapp && gradle build
-
-test:
-  post:
-    - junit /webapp/src/test
