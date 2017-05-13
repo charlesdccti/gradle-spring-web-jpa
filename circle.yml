@@ -1,7 +1,6 @@
 compile:
   override:
-    - cd webapp && gradle buildDocker
-    - docker-compose up
+    - cd webapp && gradle build
 
 test:
   post:
